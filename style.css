@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-sizing:content-box;
+    display:flexbox;
+    
+}
+
+body {
+    background-color: rgb(46, 82, 126);
+}
+
+.navbar {
+    overflow: hidden;
+    text-align:center;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(184, 207, 240);
+    background-color: rgb(3, 3, 47);
+    height: 26vh;
+}
+
+
+div {
+    height: 19vh;
+    text-align: center;
+    font-size: 4.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+
+#fahrenheit {
+    border-top: 2.5px solid rgb(46, 82, 126);
+    border-bottom: 2.5px solid rgb(46, 82, 126);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input[type=number] {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 47);
+    color:rgb(184, 207, 240);
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+}
+
+::placeholder {
+    color: rgb(184, 207, 240);
+}
+
+h4 {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(184, 207, 240);
+    background-color: rgb(3, 3, 47);
+    margin-top: 4px;
+}
